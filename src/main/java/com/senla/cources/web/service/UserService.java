@@ -8,4 +8,7 @@ public interface UserService {
     Optional<User> findByUserName(String username);
 
     User save(User user);
+
+    Integer getVersion();
+
 }
